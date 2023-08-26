@@ -1,0 +1,182 @@
+<head>
+  <meta charset="utf-8" />
+  <title>CAMT Movie Tickets</title>
+  <base href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Prompt&amp;display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <style>
+    * {
+      font-family: "Prompt", sans-serif;
+    }
+
+    .logo {
+      height: 36px;
+    }
+
+    .my-tab-content {
+      border-left: 1px solid rgb(222, 226, 230);
+      border-right: 1px solid rgb(222, 226, 230);
+    }
+
+    button {
+      width: 140px;
+    }
+
+    img.shadow {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    a:active {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar bg-body-tertiary mb-0 pb-0">
+    <div class="h3 container justify-content-center mt-5">
+      <img
+        class="logo shadow"
+        src="https://www.3bugs.com/online-tickets/assets/logo_camt_2.png"
+      />&nbsp;MOVIE TICKETS
+    </div>
+
+    <div class="container justify-content-center mt-4">
+      <!-- โรงภาพยนตร์ -->
+      <ul class="nav nav-tabs justify-content-center" style="width: 100%">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void"> โรงภาพยนตร์ 1 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="javascript:void"> โรงภาพยนตร์ 2 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void"> โรงภาพยนตร์ 3 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void"> โรงภาพยนตร์ 4 </a>
+        </li>
+      </ul>
+
+      <div class="my-tab-content container bg-white p-4">
+        <!-- Movie details -->
+        <div class="container mt-3">
+          <div class="row">
+            <div
+              class="d-flex col-sm-6 justify-content-center justify-content-sm-end"
+            >
+              <img
+                class="shadow"
+                src="https://3bugs.com/online-tickets/images/movie02.jpg"
+                style="width: 240px"
+              />
+            </div>
+            <div class="col-sm-6">
+              <div class="h5 text-primary fw-bold my-3">บาร์บี้</div>
+              <div class="h6">หมวดหมู่: Adventure, Comedy, Fantasy</div>
+              <div class="h6">เรท: G</div>
+              <div class="h6"><i class="fa-regular fa-clock"></i> 115 นาที</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- รอบฉาย -->
+        <div class="mx-sm-5" style="margin-bottom: 80px">
+          <div class="h4 mt-5 mb-3">รอบฉาย</div>
+          <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <button type="button" class="btn btn-primary">11:45</button>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <button type="button" class="btn btn-primary">14:15</button>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <button type="button" class="btn btn-primary">16:45</button>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <button type="button" class="btn btn-primary">19:15</button>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <button type="button" class="btn btn-primary">21:45</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <footer class="text-center bg-dark text-white">
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-4 d-flex align-items-center justify-content-end">
+          <a
+            class="text-white"
+            target="_blank"
+            href="https://www.camt.cmu.ac.th/"
+          >
+            <img
+              src="https://www.3bugs.com/online-tickets/assets/logo_camt.png"
+            />
+          </a>
+        </div>
+        <div
+          class="col-8 d-flex flex-column justify-content-center bg-dark text-center p-2"
+        >
+          <div class="text-start">
+            © 2023 วิชา Front-end Development with Angular&nbsp;&nbsp;<img
+              src="https://www.3bugs.com/online-tickets/assets/logo_angular.png"
+              style="height: 36px"
+            />
+          </div>
+          <div class="text-start">
+            <a
+              class="text-white"
+              target="_blank"
+              href="https://www.camt.cmu.ac.th/"
+            >
+              College of Arts, Media and Technology
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+</body>

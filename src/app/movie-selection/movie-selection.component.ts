@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { MovieService } from './model/MovieService';
-import { Theater } from './model/theater.model';
-import { Show } from './model/show.model';
+import { MovieService } from '../model/MovieService';
+import { Theater } from '../model/theater.model';
+import { Show } from '../model/show.model';
 
 @Component({
-  selector: 'app-root',
-  template: ` <router-outlet></router-outlet> `,
+  selector: 'app-movie-selection',
+  templateUrl: './movie-selection.component.html',
 })
-export class AppComponent implements OnInit {
+export class MovieSelectionComponent implements OnInit {
   theaters: Theater[] = [];
   selectedTheater: Theater | null = null;
   selectedShow: Show | null = null;
